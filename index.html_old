@@ -1,18 +1,18 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-    
+<html>
 <head>
-	<title>::: O Fiouco :::</title>
+	<!--<title>::: O Fiouco :::</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<script src="lib/jquery-1.6.4.js"></script>
 	<script src="lib/jquery.mobile-1.1.0.js"></script>
-	<script type="text/javascript" src="src/js/script.js"></script>
+	<script type="text/javascript" src="src/js/script.js"></script>-->
 	<script type="text/javascript" src="src/js/cordova.js"></script>
-	<link href="src/css/style.css" rel="stylesheet"/>
+	<!--<link href="src/css/style.css" rel="stylesheet"/>
 	<link href="src/css/jquery.mobile.structure-1.1.0.css" rel="stylesheet"/>
-	<link href="src/css/jquery.mobile.theme-1.1.0.css" rel="stylesheet" />
+	<link href="src/css/jquery.mobile.theme-1.1.0.css" rel="stylesheet" />-->
 </head>
+
+<body>
 
 <script>
 var bannerAdUnit = "ca-app-pub-4906074177432504/9172302471";
@@ -77,34 +77,6 @@ size: 	'BANNER' (320x50, Phones and Tablets)
 */
 </script>
 
-<body>
-	<div data-role="page" id="page1">
-		<div id='logo' style='text-align:center; margin-top:20px;'>
-			<img style='width:200px;' src='images/logoFiouco.png'>
-		</div>
-		<div data-role="content" style='text-align:center;'>
-			<div id='texto'>
-			<p>Estado da A-8 ó seu paso polo Fiouco.</p>
-			</div>
-			
-			<span>
-			<div data-role="controlgroup" data-theme='b'>
-			<a href='info.html' rel="external" data-role="button">Incidencias</a>
-			<a href='meteo.html' rel="external" data-role="button">Meteorología</a>
-			<a href='camaras.html' rel="external" data-role="button">Cámaras</a>
-			<a href='radar.html' rel="external" data-role="button">Radares</a>
-			</div>
-			</span>
-			</p>
-			<p>
-			<div id='info_arbr'>
-			App desarrollada por ARBR-DEV
-			<br>
-			Para plataforma Android
-			<br>
-			<a href='mailto:arbr-dev@gmail.com'>arbr-dev@gmail.com</a>
-			</div>
-			</p>
 <p><button onclick="window.admob.preloadBannerAd();">preloadBannerAd</button></p>
 <p><button onclick="window.admob.showBannerAd('top-center', 'SMART_BANNER');">showBannerAd top-center</button></p>
 <p><button onclick="window.admob.showBannerAd('bottom-center', 'SMART_BANNER');">showBannerAd bottom-center</button></p>
@@ -119,8 +91,6 @@ size: 	'BANNER' (320x50, Phones and Tablets)
 <br>
 <p><button onclick="alert(window.admob.isShowingBannerAd());">isShowingBannerAd</button></p>
 <p><button onclick="alert(window.admob.isShowingInterstitialAd());">isShowingInterstitialAd</button></p>
-		</div>
-	</div>
-</body>
 
+</body>
 </html>
