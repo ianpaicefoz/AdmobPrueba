@@ -6,10 +6,10 @@
         id        = "com.arbr-dev.ofiouco"
         version   = "1.0.0">
 
-    <name>OFiouco</name>
+    <name>AdmobPrueba</name>
 
     <description>
-        Comproba o estado da A-8 รณ seu paso polo Fiouco.
+        Pruebas Admob
     </description>
 
     <author href="http://www.arbr-dev.com" email="info@arbr-dev.com">
