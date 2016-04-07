@@ -23,7 +23,7 @@
     <meta name="viewport" content="width=1020">
     
     
-    <title>admob-demo-game-phaser/index.html at master · floatinghotpot/admob-demo-game-phaser</title>
+    <title>admob-demo-game-phaser/admob.js at master · floatinghotpot/admob-demo-game-phaser</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -43,7 +43,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/NjQ4MDkzMzpjMmZkOGQwMDlkMmU2OTFjOTZkNTNkYzM2NmYxOWFjMDo1MGVhZDEyZjc4ZGRmYWVhYTRhZjg2NDliNGY3OTk2ZWY1ZTE4YmMzMGZkM2Q3OTNmMmFmZGQ5Zjg1OTUyNmFk--86319ef96440761de5398c24d08f64462ded8a20">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/NjQ4MDkzMzpjMmZkOGQwMDlkMmU2OTFjOTZkNTNkYzM2NmYxOWFjMDpmODYyNDZkMjFmNzY4NTVjZDNiZjY4ZGEyNjk4ZDBmMjhhOGM0ZmMwOTdiNTE5OTA1MTE0Yjg0MjcyNTYyNGUw--0acb25f75589f18123d527dc9ccaf2ec66f233de">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -55,7 +55,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="53A51812:386D:534189F:570626FF" name="octolytics-dimension-request_id" /><meta content="6480933" name="octolytics-actor-id" /><meta content="ianpaicefoz" name="octolytics-actor-login" /><meta content="8de2fe8d45040a70f8f328296d10a362309168501d00697271432867e1ba0bed" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="53A51812:386D:533E817:570626E1" name="octolytics-dimension-request_id" /><meta content="6480933" name="octolytics-actor-id" /><meta content="ianpaicefoz" name="octolytics-actor-login" /><meta content="8de2fe8d45040a70f8f328296d10a362309168501d00697271432867e1ba0bed" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -68,7 +68,7 @@
     <meta name="user-login" content="ianpaicefoz">
 
         <meta name="expected-hostname" content="github.com">
-      <meta name="js-proxy-site-detection-payload" content="OTg1YWM0OTkwZTI0ZjJlODg0MjNmYWFiYTdlY2E3ZWZkNzEwOTdlMTcxODA4YjA2OWJjMjE3YjQ1ZTY0ZmJhOHx7InJlbW90ZV9hZGRyZXNzIjoiODMuMTY1LjI0LjE4IiwicmVxdWVzdF9pZCI6IjUzQTUxODEyOjM4NkQ6NTM0MTg5Rjo1NzA2MjZGRiIsInRpbWVzdGFtcCI6MTQ2MDAyMDk5Nn0=">
+      <meta name="js-proxy-site-detection-payload" content="YmU0ODQ1ODE2YWQzMzUxYTE3OGE0MzVmNDJiM2M1Y2E5MjYxNDVjYTE3YTJjNzE4NjQwZmI3Zjg0ZDBlZTUwZXx7InJlbW90ZV9hZGRyZXNzIjoiODMuMTY1LjI0LjE4IiwicmVxdWVzdF9pZCI6IjUzQTUxODEyOjM4NkQ6NTMzRTgxNzo1NzA2MjZFMSIsInRpbWVzdGFtcCI6MTQ2MDAyMDk2MX0=">
 
       <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
       <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
@@ -86,7 +86,7 @@
   <link href="https://github.com/floatinghotpot/admob-demo-game-phaser/commits/master.atom" rel="alternate" title="Recent Commits to admob-demo-game-phaser:master" type="application/atom+xml">
 
 
-      <link rel="canonical" href="https://github.com/floatinghotpot/admob-demo-game-phaser/blob/master/demo/index.html" data-pjax-transient>
+      <link rel="canonical" href="https://github.com/floatinghotpot/admob-demo-game-phaser/blob/master/demo/js/admob.js" data-pjax-transient>
   </head>
 
 
@@ -225,7 +225,7 @@
             Settings
           </a>
 
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="46021f814a97b73dfc19c8cae519c46570e580e1" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="INNEurhOuQ5wxe8j9ssxrrNttftgCt4o3EP1C54u5sFjKBDaVRQS3TPb4mQjM2jifzyklJWovvylR1j7zWXiUA==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="46021f814a97b73dfc19c8cae519c46570e580e1" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="VxJDIwowEBEuyiLZE4AUb1/HaQiTAsvl1cLw3lpmb0RRfRFIk0JUP+2aMJrlAVY1GOhOs37BdO8l7iglTHhzkw==" /></div>
             <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
               Sign out
             </button>
@@ -262,7 +262,7 @@
 <ul class="pagehead-actions">
 
   <li>
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="46021f814a97b73dfc19c8cae519c46570e580e1" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="2WCnjCyePv6CSYsEVDLJ3F9ukJeS8sITK8vLYpu8lud2S4sEX/hkenm9yfT1buHmDMDQlgMQHnpgR5C9yQaL2A==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="37175193" />
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="46021f814a97b73dfc19c8cae519c46570e580e1" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Qsu7Ihd15rky3FdqwRiC8mCq+0zyr3s7lPGwIhQs5zGhwCczgCMcDbdRuk/TEKNAhTEORkciN+abh7F7lFAulQ==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="37175193" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/floatinghotpot/admob-demo-game-phaser/subscription"
@@ -337,7 +337,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/floatinghotpot/admob-demo-game-phaser/unstar" class="js-toggler-form starred" data-form-nonce="46021f814a97b73dfc19c8cae519c46570e580e1" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="i53DceN3QTmA5lvOmiokVE7EAetq/wb/VEa9JEzsoFt9b0OxvEvYpgr0Xv5CKvc+zGrK9cTBhEuRKi04oLXAjw==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/floatinghotpot/admob-demo-game-phaser/unstar" class="js-toggler-form starred" data-form-nonce="46021f814a97b73dfc19c8cae519c46570e580e1" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="j8wiE0Y7ByFFfQISxzmyZ5Vj/uu4UsQbDHiEBZBpt6fpfyg2tgziE3znNLcJ6iOuCsr02iCWIF1MFc61M7bM/g==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar floatinghotpot/admob-demo-game-phaser"
@@ -349,7 +349,7 @@
           7
         </a>
 </form>
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/floatinghotpot/admob-demo-game-phaser/star" class="js-toggler-form unstarred" data-form-nonce="46021f814a97b73dfc19c8cae519c46570e580e1" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="fggTvqRLiUY+MM4CrdnayUpMFhP3bfHW1DTWWsMsWEI0BWq6Fl5orxYvnd2SazaJ8hxpp/I78lUvU59Bj3zO/Q==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/floatinghotpot/admob-demo-game-phaser/star" class="js-toggler-form unstarred" data-form-nonce="46021f814a97b73dfc19c8cae519c46570e580e1" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="2v2C6Ec+IHfRm4aPxcX/Ui+PfOw0NcHabDxb4sWfHlkgdzC6iciFew7oQNb8dMn2YYWM4Ipkx5bGSLkGfJMiQQ==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star floatinghotpot/admob-demo-game-phaser"
@@ -365,7 +365,7 @@
   </li>
 
   <li>
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/floatinghotpot/admob-demo-game-phaser/fork" class="btn-with-count" data-form-nonce="46021f814a97b73dfc19c8cae519c46570e580e1" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="BGAvFk7VyEoxfgSsl2YbJ1e3JgHIE1H2it23Bg9hGRUcXym5UxB3TSQ15cwr3noU+0W/IqH43xLH0JcTAsOw6w==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/floatinghotpot/admob-demo-game-phaser/fork" class="btn-with-count" data-form-nonce="46021f814a97b73dfc19c8cae519c46570e580e1" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="/YDRnwTY/+MM07TQYirV5WvhiVIolMYfq7qkulDZLmQ/bOXCPGx8/xAXH9zcROgYrDN7vON25L7Dc/e0aX7dXg==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -445,9 +445,9 @@
 
     
 
-<a href="/floatinghotpot/admob-demo-game-phaser/blob/61072247b88284ed2516fadc46c9f141172b3a49/demo/index.html" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/floatinghotpot/admob-demo-game-phaser/blob/61072247b88284ed2516fadc46c9f141172b3a49/demo/js/admob.js" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:0e51f18ba9d341c889e4480a7d771a6d -->
+<!-- blob contrib key: blob_contributors:v21:ff8fcd0c110a8a7f73aa581b0c48c038 -->
 
 <div class="file-navigation js-zeroclipboard-container">
   
@@ -489,7 +489,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/floatinghotpot/admob-demo-game-phaser/blob/master/demo/index.html"
+               href="/floatinghotpot/admob-demo-game-phaser/blob/master/demo/js/admob.js"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -526,22 +526,22 @@
     <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
   </div>
   <div class="breadcrumb js-zeroclipboard-target">
-    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/floatinghotpot/admob-demo-game-phaser"><span>admob-demo-game-phaser</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/floatinghotpot/admob-demo-game-phaser/tree/master/demo"><span>demo</span></a></span><span class="separator">/</span><strong class="final-path">index.html</strong>
+    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/floatinghotpot/admob-demo-game-phaser"><span>admob-demo-game-phaser</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/floatinghotpot/admob-demo-game-phaser/tree/master/demo"><span>demo</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/floatinghotpot/admob-demo-game-phaser/tree/master/demo/js"><span>js</span></a></span><span class="separator">/</span><strong class="final-path">admob.js</strong>
   </div>
 </div>
 
 
   <div class="commit-tease">
       <span class="right">
-        <a class="commit-tease-sha" href="/floatinghotpot/admob-demo-game-phaser/commit/5ff4ff1b1a029248b2ab890c9fa243b24917935c" data-pjax>
-          5ff4ff1
+        <a class="commit-tease-sha" href="/floatinghotpot/admob-demo-game-phaser/commit/236fb010a3edcff8d95d85b6e94dd27e123aac45" data-pjax>
+          236fb01
         </a>
-        <time datetime="2015-06-10T04:25:10Z" is="relative-time">Jun 10, 2015</time>
+        <time datetime="2015-06-10T04:23:15Z" is="relative-time">Jun 10, 2015</time>
       </span>
       <div>
         <img alt="@floatinghotpot" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/2339512?v=3&amp;s=40" width="20" />
         <a href="/floatinghotpot" class="user-mention" rel="author">floatinghotpot</a>
-          <a href="/floatinghotpot/admob-demo-game-phaser/commit/5ff4ff1b1a029248b2ab890c9fa243b24917935c" class="message" data-pjax="true" title="move lib js to lib">move lib js to lib</a>
+          <a href="/floatinghotpot/admob-demo-game-phaser/commit/236fb010a3edcff8d95d85b6e94dd27e123aac45" class="message" data-pjax="true" title="first commit">first commit</a>
       </div>
 
     <div class="commit-tease-contributors">
@@ -568,24 +568,24 @@
   <div class="file-actions">
 
     <div class="btn-group">
-      <a href="/floatinghotpot/admob-demo-game-phaser/raw/master/demo/index.html" class="btn btn-sm " id="raw-url">Raw</a>
-        <a href="/floatinghotpot/admob-demo-game-phaser/blame/master/demo/index.html" class="btn btn-sm js-update-url-with-hash">Blame</a>
-      <a href="/floatinghotpot/admob-demo-game-phaser/commits/master/demo/index.html" class="btn btn-sm " rel="nofollow">History</a>
+      <a href="/floatinghotpot/admob-demo-game-phaser/raw/master/demo/js/admob.js" class="btn btn-sm " id="raw-url">Raw</a>
+        <a href="/floatinghotpot/admob-demo-game-phaser/blame/master/demo/js/admob.js" class="btn btn-sm js-update-url-with-hash">Blame</a>
+      <a href="/floatinghotpot/admob-demo-game-phaser/commits/master/demo/js/admob.js" class="btn btn-sm " rel="nofollow">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
-           href="github-windows://openRepo/https://github.com/floatinghotpot/admob-demo-game-phaser?branch=master&amp;filepath=demo%2Findex.html"
+           href="github-windows://openRepo/https://github.com/floatinghotpot/admob-demo-game-phaser?branch=master&amp;filepath=demo%2Fjs%2Fadmob.js"
            aria-label="Open this file in GitHub Desktop"
            data-ga-click="Repository, open with desktop, type:windows">
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M15 2H1c-0.55 0-1 0.45-1 1v9c0 0.55 0.45 1 1 1h5.34c-0.25 0.61-0.86 1.39-2.34 2h8c-1.48-0.61-2.09-1.39-2.34-2h5.34c0.55 0 1-0.45 1-1V3c0-0.55-0.45-1-1-1z m0 9H1V3h14v8z"></path></svg>
         </a>
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/floatinghotpot/admob-demo-game-phaser/edit/master/demo/index.html" class="inline-form js-update-url-with-hash" data-form-nonce="46021f814a97b73dfc19c8cae519c46570e580e1" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="XqvbbyKvbT4A9/1jOl89r6rGzPQOAZXkYlb/bI8Khy/EwG8MZeiRCF83veWa7btT1wx65WZYPKyCgWIfpcz95w==" /></div>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/floatinghotpot/admob-demo-game-phaser/edit/master/demo/js/admob.js" class="inline-form js-update-url-with-hash" data-form-nonce="46021f814a97b73dfc19c8cae519c46570e580e1" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="tH0Hug0ugP2BCxkeFJktS9v/cUEIMgNw2n8c7tpxV6Y+qLYMb26hV7uxn49gVPGcgyliwzND8N5roSmcJoC9og==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M0 12v3h3l8-8-3-3L0 12z m3 2H1V12h1v1h1v1z m10.3-9.3l-1.3 1.3-3-3 1.3-1.3c0.39-0.39 1.02-0.39 1.41 0l1.59 1.59c0.39 0.39 0.39 1.02 0 1.41z"></path></svg>
           </button>
-</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/floatinghotpot/admob-demo-game-phaser/delete/master/demo/index.html" class="inline-form" data-form-nonce="46021f814a97b73dfc19c8cae519c46570e580e1" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="8MwPUuVVd+DbjywY3uxVPkJcwyxU15VW8mDRuAOZy+4rCsMKTOYz54Q/8wrmrtdRWTX4uatXxXJEDD0rSNIHpw==" /></div>
+</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/floatinghotpot/admob-demo-game-phaser/delete/master/demo/js/admob.js" class="inline-form" data-form-nonce="46021f814a97b73dfc19c8cae519c46570e580e1" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="zZ27cbzPDtMgk9Q3qNBQa0/wqrnxjpx5PFvtwvjiHZ9zqtWRz/l+fWRCTNA5js6kp7OZSkta905Z6utyA0aLwA==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and delete the file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M10 2H8c0-0.55-0.45-1-1-1H4c-0.55 0-1 0.45-1 1H1c-0.55 0-1 0.45-1 1v1c0 0.55 0.45 1 1 1v9c0 0.55 0.45 1 1 1h7c0.55 0 1-0.45 1-1V5c0.55 0 1-0.45 1-1v-1c0-0.55-0.45-1-1-1z m-1 12H2V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9z m1-10H1v-1h9v1z"></path></svg>
@@ -593,116 +593,187 @@
 </form>  </div>
 
   <div class="file-info">
-      26 lines (24 sloc)
+      43 lines (37 sloc)
       <span class="file-info-divider"></span>
-    631 Bytes
+    1.17 KB
   </div>
 </div>
 
   
 
-  <div itemprop="text" class="blob-wrapper data type-html">
+  <div itemprop="text" class="blob-wrapper data type-javascript">
       <table class="highlight tab-size js-file-line-container" data-tab-size="8">
       <tr>
         <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code blob-code-inner js-file-line">&lt;!DOCTYPE HTML&gt;</td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">var</span> admobid <span class="pl-k">=</span> {};</td>
       </tr>
       <tr>
         <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">html</span>&gt;</td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span>(<span class="pl-sr"> <span class="pl-pds">/</span>(android)<span class="pl-pds">/</span>i</span>.<span class="pl-c1">test</span>(<span class="pl-c1">navigator</span>.<span class="pl-c1">userAgent</span>) ) { </td>
       </tr>
       <tr>
         <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">head</span>&gt;</td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line">    admobid <span class="pl-k">=</span> { <span class="pl-c">// for Android</span></td>
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">meta</span> <span class="pl-e">charset</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>utf8<span class="pl-pds">&quot;</span></span>&gt;</td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line">        banner<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>ca-app-pub-6869992474017983/9375997553<span class="pl-pds">&#39;</span></span>,</td>
       </tr>
       <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">title</span>&gt;pixi.js example 12 Spine&lt;/<span class="pl-ent">title</span>&gt;</td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line">        interstitial<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>ca-app-pub-6869992474017983/1657046752<span class="pl-pds">&#39;</span></span></td>
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">    };</td>
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">meta</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>viewport<span class="pl-pds">&quot;</span></span> <span class="pl-e">content</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>width=device-width, initial-scale=1, user-scalable=no<span class="pl-pds">&quot;</span></span>&gt;</td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line">} <span class="pl-k">else</span> <span class="pl-k">if</span>(<span class="pl-sr"><span class="pl-pds">/</span>(ipod<span class="pl-k">|</span>iphone<span class="pl-k">|</span>ipad)<span class="pl-pds">/</span>i</span>.<span class="pl-c1">test</span>(<span class="pl-c1">navigator</span>.<span class="pl-c1">userAgent</span>)) {</td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    &lt;<span class="pl-ent">style</span>&gt;</span></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">    admobid <span class="pl-k">=</span> { <span class="pl-c">// for iOS</span></td>
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">        <span class="pl-ent">body</span> {</span></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">        banner<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>ca-app-pub-6869992474017983/4806197152<span class="pl-pds">&#39;</span></span>,</td>
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">            <span class="pl-c1"><span class="pl-c1">margin</span></span>: <span class="pl-c1">0</span>;</span></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">        interstitial<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>ca-app-pub-6869992474017983/7563979554<span class="pl-pds">&#39;</span></span></td>
       </tr>
       <tr>
         <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">            <span class="pl-c1"><span class="pl-c1">padding</span></span>: <span class="pl-c1">0</span>;</span></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">    };</td>
       </tr>
       <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">            <span class="pl-c1"><span class="pl-c1">background-color</span></span>: <span class="pl-c1">#000000</span>;</span></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">} <span class="pl-k">else</span> {</td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">            <span class="pl-c1"><span class="pl-c1">width</span></span>: <span class="pl-c1">100<span class="pl-k">%</span></span>;</span></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">    admobid <span class="pl-k">=</span> { <span class="pl-c">// for Windows Phone</span></td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">            <span class="pl-c1"><span class="pl-c1">height</span></span>: <span class="pl-c1">100<span class="pl-k">%</span></span>;</span></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">        banner<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>ca-app-pub-6869992474017983/8878394753<span class="pl-pds">&#39;</span></span>,</td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">        }</span></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">        interstitial<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>ca-app-pub-6869992474017983/1355127956<span class="pl-pds">&#39;</span></span></td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    &lt;/<span class="pl-ent">style</span>&gt;</span></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">    };</td>
       </tr>
       <tr>
         <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>cordova.js<span class="pl-pds">&quot;</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">}</td>
       </tr>
       <tr>
         <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>lib/jquery-2.0.3.min.js<span class="pl-pds">&quot;</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>lib/phaser.2.3.0.min.js<span class="pl-pds">&quot;</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span>((<span class="pl-sr"> <span class="pl-pds">/</span>(ipad<span class="pl-k">|</span>iphone<span class="pl-k">|</span>ipod<span class="pl-k">|</span>android<span class="pl-k">|</span>windows phone)<span class="pl-pds">/</span>i</span>.<span class="pl-c1">test</span>(<span class="pl-c1">navigator</span>.<span class="pl-c1">userAgent</span>) )) {</td>
       </tr>
       <tr>
         <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">head</span>&gt;</td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1">document</span>.<span class="pl-en">addEventListener</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>deviceready<span class="pl-pds">&#39;</span></span>, initApp, <span class="pl-c1">false</span>);</td>
       </tr>
       <tr>
         <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">body</span>&gt;</td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">} <span class="pl-k">else</span> {</td>
       </tr>
       <tr>
         <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>js/app.js<span class="pl-pds">&quot;</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">    <span class="pl-en">initApp</span>();</td>
       </tr>
       <tr>
         <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>js/admob.js<span class="pl-pds">&quot;</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">}</td>
       </tr>
       <tr>
         <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">body</span>&gt;</td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">html</span>&gt;</td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line"><span class="pl-k">function</span> <span class="pl-en">initApp</span>() {</td>
+      </tr>
+      <tr>
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">if</span> (<span class="pl-k">!</span> AdMob ) { <span class="pl-en">alert</span>( <span class="pl-s"><span class="pl-pds">&#39;</span>admob plugin not ready<span class="pl-pds">&#39;</span></span> ); <span class="pl-k">return</span>; }</td>
+      </tr>
+      <tr>
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">AdMob</span>.<span class="pl-en">createBanner</span>( {</td>
+      </tr>
+      <tr>
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">        adId<span class="pl-k">:</span> <span class="pl-smi">admobid</span>.<span class="pl-smi">banner</span>, </td>
+      </tr>
+      <tr>
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">        isTesting<span class="pl-k">:</span> <span class="pl-c1">true</span>,</td>
+      </tr>
+      <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">        overlap<span class="pl-k">:</span> <span class="pl-c1">true</span>, </td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">        offsetTopBar<span class="pl-k">:</span> <span class="pl-c1">false</span>, </td>
+      </tr>
+      <tr>
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">        position<span class="pl-k">:</span> <span class="pl-smi">AdMob</span>.<span class="pl-c1">AD_POSITION</span>.<span class="pl-c1">TOP_CENTER</span>,</td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">        bgColor<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>black<span class="pl-pds">&#39;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">    } );</td>
+      </tr>
+      <tr>
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">    </td>
+      </tr>
+      <tr>
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">AdMob</span>.<span class="pl-en">prepareInterstitial</span>({</td>
+      </tr>
+      <tr>
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line">        adId<span class="pl-k">:</span> <span class="pl-smi">admobid</span>.<span class="pl-smi">interstitial</span>,</td>
+      </tr>
+      <tr>
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">        autoShow<span class="pl-k">:</span> <span class="pl-c1">true</span></td>
+      </tr>
+      <tr>
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line">    });</td>
+      </tr>
+      <tr>
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
 </table>
 
@@ -743,7 +814,7 @@
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" title="GitHub " version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 0.4 0.07 0.55-0.17 0.55-0.38 0-0.19-0.01-0.82-0.01-1.49-2.01 0.37-2.53-0.49-2.69-0.94-0.09-0.23-0.48-0.94-0.82-1.13-0.28-0.15-0.68-0.52-0.01-0.53 0.63-0.01 1.08 0.58 1.23 0.82 0.72 1.21 1.87 0.87 2.33 0.66 0.07-0.52 0.28-0.87 0.51-1.07-1.78-0.2-3.64-0.89-3.64-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0 0.67-0.21 2.2 0.82 0.64-0.18 1.32-0.27 2-0.27 0.68 0 1.36 0.09 2 0.27 1.53-1.04 2.2-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.27 0.82 2.15 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48 0 1.07-0.01 1.93-0.01 2.2 0 0.21 0.15 0.46 0.55 0.38C13.71 14.53 16 11.53 16 8 16 3.58 12.42 0 8 0z"></path></svg>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2016 <span title="0.15489s from github-fe150-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2016 <span title="0.08511s from github-fe151-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
