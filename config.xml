@@ -3,13 +3,13 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.arbr-dev.ofiouco"
+        id        = "com.arbr-dev.admobpro"
         version   = "1.0.0">
 
-    <name>AdmobPrueba</name>
+    <name>Prueba Admob</name>
 
     <description>
-        Pruebas Admob
+        Pruebas con Admob Pro.
     </description>
 
     <author href="http://www.arbr-dev.com" email="info@arbr-dev.com">
@@ -79,7 +79,7 @@
     -->
 
     <!-- Define app icon for each platform. -->
-    <icon src="images/iconoFiouco.png" />
+    <!--<icon src="images/iconoFiouco.png" />-->
     <!--<icon src="res/icon/mipmap-hdpi/ic_launcher.png"   gap:platform="android"    gap:qualifier="ldpi" />
     <icon src="res/icon/mipmap-mdpi/ic_launcher.png"   gap:platform="android"    gap:qualifier="mdpi" />
     <icon src="res/icon/mipmap-xhdpi/ic_launcher.png"   gap:platform="android"    gap:qualifier="hdpi" />
