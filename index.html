@@ -37,16 +37,16 @@ document.addEventListener("deviceready", function(){
 	window.admob.setUp(bannerAdUnit, interstitialAdUnit, isOverlap, isTest);
 	//
 	window.admob.onBannerAdPreloaded = function() {
-		alert('onBannerAdPreloaded');
+		/*alert('onBannerAdPreloaded');*/
 	};
 	window.admob.onBannerAdLoaded = function() {
-		alert('onBannerAdLoaded');
+		/*alert('onBannerAdLoaded');*/
 	};
 	window.admob.onBannerAdShown = function() {
-		alert('onBannerAdShown');
+		/*alert('onBannerAdShown');*/
 	};
 	window.admob.onBannerAdHidden = function() {
-		alert('onBannerAdHidden');
+		/*alert('onBannerAdHidden');*/
 	};	
 	//
 	window.admob.onInterstitialAdPreloaded = function() {
@@ -104,10 +104,10 @@ size: 	'BANNER' (320x50, Phones and Tablets)
 			</div>
 			</p>
 		</div>
-<p><button onclick="window.admob.preloadBannerAd();">preloadBannerAd</button></p>
-<p><button onclick="window.admob.showBannerAd('top-center', 'SMART_BANNER');">showBannerAd top-center</button></p>
+<!--<p><button onclick="window.admob.preloadBannerAd();">preloadBannerAd</button></p>
+<p><button onclick="window.admob.showBannerAd('top-center', 'SMART_BANNER');">showBannerAd top-center</button></p>-->
 <p><button onclick="window.admob.showBannerAd('bottom-center', 'SMART_BANNER');">showBannerAd bottom-center</button></p>
-<p><button onclick="window.admob.reloadBannerAd();">reloadBannerAd</button></p>
+<!--<p><button onclick="window.admob.reloadBannerAd();">reloadBannerAd</button></p>
 <p><button onclick="window.admob.hideBannerAd();">hideBannerAd</button></p>
 <br>
 <p><button onclick="window.admob.preloadInterstitialAd();">preloadInterstitialAd</button></p>
@@ -117,7 +117,7 @@ size: 	'BANNER' (320x50, Phones and Tablets)
 <p><button onclick="alert(window.admob.loadedInterstitialAd());">loadedInterstitialAd</button></p>
 <br>
 <p><button onclick="alert(window.admob.isShowingBannerAd());">isShowingBannerAd</button></p>
-<p><button onclick="alert(window.admob.isShowingInterstitialAd());">isShowingInterstitialAd</button></p>
+<p><button onclick="alert(window.admob.isShowingInterstitialAd());">isShowingInterstitialAd</button></p>-->
 </div>
 </body>
 </html>
